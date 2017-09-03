@@ -20,7 +20,7 @@ You may find [more information](http://www.slideshare.net/FilippoValle2/tesina-a
 This work is referenced [here](http://www.istitutomoro.it/area-studenti-e-famiglie/esame-di-stato/esempi-di-tesine/analisi-di-raggi-cosmici-mediante-supercomputer/).
 
 ## Mac App
-I depeloped an app to monitor macOS hardware.
+I developed an app to monitor macOS hardware.
 
 [sourceforge.net/projects/macos-temperature](https://sourceforge.net/projects/macos-temperature/?source=directory)
 
