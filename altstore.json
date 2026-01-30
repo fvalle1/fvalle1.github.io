@@ -52,7 +52,7 @@
                     "version": "1.1",
                     "date": "2024-08-12T09:00:00-08:00",
                     "size": 10837428,
-                    "downloadURL": "https://fvalle.online/apps/energy.ipa",
+                    "downloadURL": "https://github.com/fvalle1/fvalle1.github.io/raw/refs/heads/main/apps/energy.ipa",
                     "localizedDescription": "New features and bug fixes.",
                     "minOSVersion": "12.0"
                 }
@@ -92,7 +92,7 @@
         },
         {
             "name": "Nimeaflow",
-            "bundleIdentifier": "online.fvalle.toll_gate_tracker",
+            "bundleIdentifier": "online.fvalle.tollGateTracker",
             "developerName": "Filippo Valle",
             "subtitle": "A nimeaflow project",
             "localizedDescription": "A nimeaflow app",
