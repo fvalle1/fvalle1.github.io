@@ -78,8 +78,34 @@
                     "version": "1.1",
                     "date": "2024-08-12T09:00:00-08:00",
                     "size": 10837428,
-                    "downloadURL": "https://fvalle.online/apps/fussball.ipa",
+                    "downloadURL": "https://github.com/fvalle1/fvalle1.github.io/raw/refs/heads/main/apps/fussball.ipa",
                     "localizedDescription": "New features and bug fixes.",
+                    "minOSVersion": "12.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups"
+                ],
+                "privacy": {}
+            }
+        },
+        {
+            "name": "Nimeaflow",
+            "bundleIdentifier": "online.fvalle.toll_gate_tracker",
+            "developerName": "Filippo Valle",
+            "subtitle": "A nimeaflow project",
+            "localizedDescription": "A nimeaflow app",
+            "iconURL": "https://raw.githubusercontent.com/fvalle1/nimeaflow/refs/heads/main/flutter_app/assets/icon/app_icon.png",
+            "tintColor": "#B2D5A8",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1",
+                    "date": "2024-08-12T09:00:00-08:00",
+                    "size": 10837428,
+                    "downloadURL": "https://github.com/fvalle1/fvalle1.github.io/raw/refs/heads/main/apps/toll_gate_tracker.ipa",
+                    "localizedDescription": "New app.",
                     "minOSVersion": "12.0"
                 }
             ],
@@ -98,9 +124,19 @@
             "caption": "My apps are now on alt store",
             "date": "2025-01-01T10:00:00-07:00",
             "tintColor": "#4F9FAE",
-            "imageURL": "https://fvalle.my.canva.site/images/6131e01638416546588ff33ddf9eedbf.png",
+            "imageURL": "https://fvalle.online/img/apps/zotviewer.png",
             "notify": false,
             "appID": "online.fvalle.zotviewer"
+        },
+        {
+            "title": "Nimeflow is out",
+            "identifier": "app_update",
+            "caption": "Nimeflow is now available on AltStore",
+            "date": "2026-01-31T10:00:00-07:00",
+            "tintColor": "#4F9FAE",
+            "imageURL": "https://raw.githubusercontent.com/fvalle1/nimeaflow/refs/heads/main/flutter_app/assets/icon/app_icon.png",
+            "notify": true,
+            "appID": "online.fvalle.toll_gate_tracker"
         }
     ]
 }
