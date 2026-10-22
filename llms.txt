@@ -1,0 +1,40 @@
+# Filippo Valle
+
+> Personal website of Filippo Valle, a physicist, researcher and software engineer. Ph.D. in Complex Systems for Life Sciences; works on machine learning methods and bioinformatics in the biophys group at the University of Turin.
+
+The site is a single-page portfolio (https://fvalle.online). Everything below is also on the home page.
+
+## About
+
+- Topics: complex systems, statistical modeling, machine learning, data science, bioinformatics, cloud computing.
+- Affiliation: [Biophys group, University of Turin](https://biophys-turin.github.io)
+- Contact: me@fvalle.online
+- CV: available on request by email (me@fvalle.online)
+
+## Profiles
+
+- [GitHub](https://github.com/fvalle1)
+- [Google Scholar](https://scholar.google.com/citations?user=-2w1LOwAAAAJ)
+- [ORCID](https://orcid.org/0000-0003-3577-8667)
+- [LinkedIn](https://www.linkedin.com/in/filippo-valle)
+
+## Projects
+
+- [zotviewer](https://github.com/fvalle1/zotviewer/releases/tag/2.2.1): app to manage and read papers from Zotero; Android ([Play Store](https://play.google.com/store/apps/details?id=com.fvalle.zotero_app)) and iOS.
+- [CovidStats](https://covidstats.codemagic.app/): dashboard built to help people understand pandemic data.
+- [trisbm](https://fvalle.online/nsbm/): network-based topic modeling with multiple layers of information.
+- [pizzabot](https://github.com/fvalle1/pizza_bot/): serverless Telegram bot that helps you make pizza.
+- [Chat GPX](https://github.com/fvalle1/chatGPX/): MCP client/server with a web app to interact with GPX activities from fitness apps.
+- [Focus Intelligenza Artificiale](https://tempopresenterivista.altervista.org/e-uscito-il-numero-529-531-di-tempo-presente-dedicato-monograficamente-al-tema-focus-intelligenza-artificiale-lenigma-della-singolarita-e-le-leve-umane-per-la-conoscenza/): issue 529-531 of the Italian journal Tempo Presente on generative AI, with a contribution by Filippo Valle (in Italian).
+
+## Writing and media
+
+- [Substack newsletter](https://filippovalle.substack.com)
+- [Medium blog](https://medium.com/@filippovalle)
+- [Photos on Flickr](https://www.flickr.com/photos/136403634@N07)
+
+## Notes for AI agents
+
+- Content is mostly English, with some Italian.
+- /network.html is a large generated visualization with no useful text; it is disallowed in robots.txt. Skip it.
+- See [skill.md](https://fvalle.online/skill.md) for a compact guide on using this site.
