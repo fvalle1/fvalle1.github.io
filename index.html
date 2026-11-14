@@ -20,6 +20,7 @@
 
   <script src="js/tracking.js" defer></script>
   <script src="js/hire.js"defer></script>
+  <script src="js/medium.js" defer></script>
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://kit.fontawesome.com" crossorigin>
   <link rel="preconnect" href="https://ka-f.fontawesome.com" crossorigin>
@@ -34,7 +35,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#adventures">Adventures</a></li>
+                <li><a href="#newsletter">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -162,16 +163,94 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-content">
-                        <h3>Substack</h3>
-                        <iframe src="https://filippovalle.substack.com/embed" width="480" height="320"
-                            style="border: 1px solid #EEE; background: white" frameborder="0" scrolling="no"></iframe>
-
+                        <h3>Medium</h3>
+                        <div style="border: 1px solid #EEE; border-radius: 5px; background: white; color: #242424; padding: 15px; text-align: left;">
+                            <a href="https://medium.com/@filippovalle" target="_blank"
+                                style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit;">
+                                <img src="https://cdn-images-1.medium.com/fit/c/150/150/1*X1mUY1gUIENON6v8qxpVQw.jpeg"
+                                    alt="Filippo Valle" width="48" height="48" style="border-radius: 50%;">
+                                <span><strong>Filippo Valle</strong><br><small style="color: #6B6B6B;">@filippovalle on Medium</small></span>
+                            </a>
+                            <!-- Static fallback; replaced with the live feed by js/medium.js -->
+                            <ul id="medium-posts" style="list-style: none; padding: 0; margin: 15px 0; border-bottom: 1px solid #EEE;">
+                               <li style="padding: 8px 0; border-top: 1px solid #EEE;">
+                                    <a href="https://filippovalle.medium.com/multi-omics-topic-modeling-ac108d9f5c6" target="_blank" style="color: inherit; text-decoration: none;">Multi-omics topic modeling</a>
+                                    <br><small style="color: #6B6B6B;">Oct 20, 2026</small>
+                                </li>
+                                <li style="padding: 8px 0; border-top: 1px solid #EEE;">
+                                    <a href="https://filippovalle.medium.com/topicpy-a-python-package-for-topic-modeling-d169dff3459c" target="_blank" style="color: inherit; text-decoration: none;">topicpy: a Python package for topic modeling</a>
+                                    <br><small style="color: #6B6B6B;">Oct 19, 2026</small>
+                                </li>
+                                <li style="padding: 8px 0; border-top: 1px solid #EEE;">
+                                    <a href="https://filippovalle.medium.com/chat-with-your-gpx-882ae54a11f2" target="_blank" style="color: inherit; text-decoration: none;">Chat with your GPX</a>
+                                    <br><small style="color: #6B6B6B;">Oct 6, 2026</small>
+                                </li>
+                            </ul>
+                            <a href="https://medium.com/@filippovalle" target="_blank"
+                                style="display: inline-block; padding: 8px 16px; border-radius: 99px; background: #242424; color: white; text-decoration: none;">Read on Medium</a>
+                        </div>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-content">
-                        <h3>Medium</h3>
-                        <a href="https://medium.com/@filippovalle" target="_blank">https://medium.com/@filippovalle</a>
+                        <h3>Substack</h3>
+                        <iframe src="https://filippovalle.substack.com/embed" width="100%" height="320"
+                            style="border: 1px solid #EEE; background: white" frameborder="0" scrolling="no"></iframe>
+                
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Goodreads</h3>
+                        <style>
+                            #customize-list {
+                                float: left;
+                                margin-left: 20px;
+                                list-style: none;
+                            }
+                
+                            #gr_updates_widget {
+                                float: left;
+                                border-radius: 5px;
+                                background-color: #fff;
+                                border: solid #32465A 10px;
+                                -webkit-box-shadow: 0px 0px 4px 1px #32465A,
+                                    inset 0px 0px 0px 1px #7D730B;
+                                -moz-box-shadow: 0px 0px 4px 1px #32465A,
+                                    inset 0px 0px 0px 1px #7D730B;
+                                box-shadow: 0px 0px 4px 1px #32465A,
+                                    inset 0px 0px 0px 1px #7D730B;
+                                padding: 15px 0 0px 15px;
+                                width: 250px;
+                                height: 365px;
+                            }
+                
+                            #gr_footer {
+                                margin-bottom: 0px;
+                                height: 30px;
+                            }
+                
+                            #gr_updates_widget p {
+                                padding: 0px;
+                                margin: 0;
+                                font-size: 14px;
+                            }
+                
+                            #gr_footer img {
+                                width: 100%;
+                                float: left;
+                            }
+                        </style>
+                        <div id="gr_updates_widget">
+                            <iframe sandbox id="the_iframe"
+                                src="https://goodreads.com/widgets/user_update_widget?height=400&num_updates=5&user=204828042&width=200"
+                                width="100%" height="330" frameborder="0"></iframe>
+                            <div id="gr_footer">
+                                <a href="https://www.goodreads.com/"><img alt="Goodreads: Book reviews, recommendations, and discussion"
+                                        src="https://s.gr-assets.com/images/layout/goodreads_logo_140.png" /></a>
+                            </div>
+                        </div>
+                
                     </div>
                 </div>
             </div>
